@@ -8,6 +8,20 @@
         <link rel="stylesheet" href="main.css">
     </head>
     <body>
+        <div id="header">
+            <h1>Etch-A-Sketch</h1>
+            <button class="btn" id="btn-reset"><span>Reset Grid</span></button>
+            <button class="btn" id="btn-gridsize"><span>Grid Size</span></button>
+            <div id="colorswitch">
+                <span>Colored Mode</span>
+                <div id="switchwrapper">
+                    <div class="onoffswitch">
+                        <input type="checkbox" name="onoffswitch" class="onoffswitch-checkbox" id="myonoffswitch" tabindex="0">
+                        <label class="onoffswitch-label" for="myonoffswitch"></label>
+                    </div>
+                </div>
+            </div>
+        </div>
         <div id="container">
         </div>
         <script src="main.js" async defer></script>
