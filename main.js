@@ -1,10 +1,9 @@
 let container = document.getElementById("container");
 let items = document.getElementsByClassName("item");
-let colored = true; //set default mode to black
 let btnReset = document.getElementById("btn-reset");
 let btnGridSize = document.getElementById("btn-gridsize");
 let coloredMode = document.getElementById("colored-mode");
-let gridSize;
+let gridSize; // variable to store current gridSize, this is used to help the "reset grid" and "gride size" buttons always generate the intended size grid
 let gradientBlack = ["rgb(229, 229, 229)", "rgb(204, 204, 204)", "rgb(178, 178, 178)", "rgb(153, 153, 153)",
                     "rgb(127, 127, 127)", "rgb(102, 102, 102)", "rgb(76, 76, 76)", "rgb(51, 51, 51)",
                     "rgb(25, 25, 25)", "rgb(0, 0, 0)"];
